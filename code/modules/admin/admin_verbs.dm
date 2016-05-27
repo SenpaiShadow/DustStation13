@@ -5,6 +5,8 @@ var/list/admin_verbs_default = list(
 	/client/proc/cmd_mentor_check_new_players
 	)
 var/list/admin_verbs_admin = list(
+	/client/proc/cmd_admin_weaken,
+	/client/proc/cmd_admin_unweaken,
 	/client/proc/check_antagonists,		/*shows all antags*/
 	/datum/admins/proc/show_player_panel,
 	/client/proc/player_panel,			/*shows an interface for all players, with links to various panels (old style)*/
@@ -957,3 +959,22 @@ var/list/admin_verbs_snpc = list(
 	verbs -= admin_verbs_snpc
 	verbs += /client/proc/show_snpc_verbs
 	to_chat(src, "<span class='interface'>SNPC verbs off.</span>")
+
+
+/client/proc/cmd_admin_weaken(mob/M as mob)
+	set category = null
+	set name = "Wind Player"
+
+	M.SetWeakened(200)
+
+	// feedback_add_details("admin_verb","WIND") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
+	// Chop chop.
+	return
+
+/client/proc/cmd_admin_unweaken(var/mob/M as mob)
+	set category = null
+	set name = "Unwind Player"
+
+	M.SetWeakened(0)
+
+	return
