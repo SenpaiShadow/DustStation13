@@ -809,7 +809,7 @@
 		</html>
 
 		"}
-		
+
 /obj/item/weapon/book/manual/security_space_law/black
 	name = "Space Law - Limited Edition"
 	desc = "A leather-bound, immaculately-written copy of JUSTICE."
@@ -1577,7 +1577,7 @@
                     <li>The Chief Engineer is bound to the same rules regarding the axe as Atmospheric Technicians;</li>
                     <li>The Chief Engineer is permitted to carry a telescopic baton and a flash; </li>
                     <li>The Chief Engineer is responsible for maintaining the integrity of the Gravitational Singularity Engine and/or the Supermatter Engine and/or the Tesla Engine. Neglecting this duty is grounds for termination should the Engine malfunction;</li>
-                    <li>The Chief Engineer is responsible for maintaining the integrity of the Cyberiad's Atmospherics System. Failure to maintain this integrity is grounds for termination;</li>
+                    <li>The Chief Engineer is responsible for maintaining the integrity of the Nebula's Atmospherics System. Failure to maintain this integrity is grounds for termination;</li>
                     <li>The Chief Engineer may declare an area "Condemned", if it is damaged to the point where repairs cannot reasonably be completed within an acceptable frame of time;</li>
                     <li>The Chief Engineer is permitted to grant Building Permits to crewmembers, but must keep the Station Blueprints in a safe location at all times.</li>
 				</ol>
@@ -1593,7 +1593,7 @@
                     <li>Engineers must constantly monitor the Supermatter Engine, if it is the chosen method of power generation, if it is currently active (ie, under Emitter Fire). This is not negotiable;</li>
                     <li>Engineers must respond promptly to breaches, regardless of size. Failure to report within fifteen (15) minutes will be considered a breach of Standard Operating Procedure, unless there are no spare Engineers to report or an Atmospheric Technician has arrived on scene first. All Hazard Zones must be cordoned off with Engineering Tape, for the sake of everyone else;</li>
                     <li>Engineers are permitted to hack doors to gain unauthorized access to locations if said locations happen to require urgent repairs;</li>
-                    <li>Engineers are to maintain the integrity of the Cyberiad's Power Network. In addition, hotwiring the Gravitational Singularity Engine, Supermatter Engine or Tesla Engine is strictly forbidden;</li>
+                    <li>Engineers are to maintain the integrity of the Nebula's Power Network. In addition, hotwiring the Gravitational Singularity Engine, Supermatter Engine or Tesla Engine is strictly forbidden;</li>
                     <li>Engineers must ensure there is at least one (1) engineering hardsuit available on the station at all times, unless there is an emergency that requires the use of all suits.</li>
 				</ol>
                 <br><br>
@@ -2016,7 +2016,7 @@
 					<li>The Security Pod Pilot is not permitted to use the Laser Module during arrests, and must switch to the Disabler Module;</li>
 					<li>The Security Pod Pilot must carry around a spare set of tools and energy cell, for their own sake;</li>
 					<li>The Security Pod Pilot may immediately, and without warning, conduct arrests on individuals attempting to perform E.V.A actions near the AI Satellite. Exception is made if the AI Unit is malfunctioning;</li>
-					<li>The Security Pod Pilot is not permitted to explore the area surrounding the station, and must therefore be confined to the immediate orbital area of the NSS Cyberiad, the NXS Klapaucius (the Telecomms Satellite) and the Mining/Research Asteroid. Exception is made if the Head of Security permits otherwise.</li>
+					<li>The Security Pod Pilot is not permitted to explore the area surrounding the station, and must therefore be confined to the immediate orbital area of the NSS Nebula, the NXS Klapaucius (the Telecomms Satellite) and the Mining/Research Asteroid. Exception is made if the Head of Security permits otherwise.</li>
 				</ol><BR>
 
 				<h style='color: darkblue'>Code Blue</h>
@@ -2153,7 +2153,7 @@
                     <li>Prisoner must then be borged, fired into space via mass driver, cremated, or placed in the morgue with a DNR Notice, at the discretion of the Magistrate, Captain or Head of Security.</li>
 				</ol>
                 <br><br>
-                
+
                 <h1><a name="elec"><B>Execution: Lethal Injection</B></a></h1><BR>
 				<ol>
 					<li>Prisoner must be bucklecuffed to the electric chair or bed.</li>
@@ -2162,7 +2162,7 @@
                     <li>Prisoner must then be borged, fired into space via mass driver, cremated, or placed in the morgue with a DNR Notice, at the discretion of the Magistrate, Captain or Head of Security.</li>
 				</ol>
                 <br><br>
-                
+
                  <h1><a name="elec"><B>Execution: Firing Squad</B></a></h1><BR>
 				<ol>
 					<li>Prisoner must be brought to the Firing Range.</li>
@@ -2176,7 +2176,7 @@
 				</html>
 
 		"}
-        
+
 /obj/item/weapon/book/manual/sop_general
 	name = "Standard Operating Procedures"
 	desc = "A set of guidelines aiming at the safe conduct of all station activities."
@@ -2224,7 +2224,7 @@
 
 				<h1><a name="green"><B>Code Green</B></a></h1><BR>
                 <i>All clear.</i><br>
-                Default operating level. No immediate or clear threat to the station. All departments may carry out work as normal. 
+                Default operating level. No immediate or clear threat to the station. All departments may carry out work as normal.
                 This alert level can be set at the Communications Console with a Captain level ID.<br>
                 <i>All threats to the station have passed. All weapons need to be holstered and privacy laws are once again fully enforced.</i><br>
                 <br>
@@ -2242,10 +2242,10 @@
                 Crew:<br>
                 <ul>
                     <li>Crew members may freely walk in the hallways</li>
-                    <li>Suit sensors are not mandatory.</li>   
+                    <li>Suit sensors are not mandatory.</li>
                 </ul>
                 <br><br>
-                
+
                 <h1><a name="blue"><B>Code Blue</B></a></h1><BR>
                 <i>There is a suspected threat.</i><br>
                 Raised alert level. Suspected threat to the station. Issued by Central Command, the Captain, or a Head of Staff vote. This alert level can be set at the Communications Console with a Captain level ID.<br>
@@ -2267,10 +2267,10 @@
                 Crew:<br>
                 <ul>
                     <li>Employees are recommended to comply with all security requests.</li>
-                    <li>Suit sensors are mandatory, but coordinate positions are not required.</li>   
+                    <li>Suit sensors are mandatory, but coordinate positions are not required.</li>
                 </ul>
                 <br><br>
-                
+
                 <h1><a name="red"><B>Code Red</B></a></h1><BR>
                 <i>There is a confirmed threat.</i><br>
                 Maximum alert level. Confirmed threat to the station or severe damage. Issued by Central Command, the Captain, or a Head of Staff vote. This alert level can only be set via the Keycard Authentication Devices in each Heads of Staff office and by swiping two Heads of Staff ID cards simultaneously.<br>
@@ -2291,12 +2291,12 @@
                 Crew:<br>
                 <ul>
                     <li>Suit sensors and coordinate positions are mandatory.</li>
-                    <li>All crew members must remain in their departments.</li>   
-                    <li>Employees are required to comply with all security requests.</li>  
-                    <li>Emergency Response Team may be authorised. All crew are to comply with their direction.</li>  
+                    <li>All crew members must remain in their departments.</li>
+                    <li>Employees are required to comply with all security requests.</li>
+                    <li>Emergency Response Team may be authorised. All crew are to comply with their direction.</li>
                 </ul>
                 <br><br>
-                
+
                 <h1><a name="gamma"><B>Code Gamma</B></a></h1><BR>
                 <i>Extremely hostile threat onboard the station.</i><br>
                 GAMMA Security level has been set by Centcom.<br>
@@ -2318,11 +2318,11 @@
                 Crew:<br>
                 <ul>
                     <li>Employees are required to comply with all security requests.</li>
-                    <li>All civilians are to seek their nearest head for transportation to a safe location.</li>   
+                    <li>All civilians are to seek their nearest head for transportation to a safe location.</li>
                     <li>All personnel are required to defend the station and help security with dealing with the threat. All crew must follow direct orders from Security Personell or Head of Staff.</li>
                 </ul>
                 <br><br>
-                
+
                 <h1><a name="hiring"><B>Hiring Policies</B></a></h1><BR>
                 <ul>
                     <li>Authorisation from the relevant Department Head is required to be hired into a Department. If none exists, the HoP or Captain's authorisation is required.</li>
@@ -2332,7 +2332,7 @@
                     <li>All Security personnel are to be loyalty implanted.</li>
                 </ul>
                 <br><br>
-                
+
                 <h1><a name="firing"><B>Firing Policies</B></a></h1><BR>
                 <ul>
                     <li>If a crew is to be dismissed, their ID is to be terminated.</li>
@@ -2341,7 +2341,7 @@
                     <li>Demotion or Dismissal must have due cause.</li>
                 </ul>
                 <br><br>
-                
+
                 <h1><a name="causes"><B>Causes for Demotion and Dismissal</B></a></h1><BR>
                 <ul>
                     <li>A medium or higher crime may be grounds for dismissal, at the department head's discretion.</li>
@@ -2356,11 +2356,11 @@
                     <li>Failure or refusal to hand in any items, ID, etc, of their previous job, is to be considered theft.</li>
                 </ul>
                 <br><br>
-                
+
                 <h1><a name="sit"><B>Situational SoP</B></a></h1><BR>
                 The following situations have specific SoP. Failure to follow these may result in demotion/dismissal, or detaining by security if failure to follow them presents a significant risk.
                 <br><br>
-                
+
                 <h1><a name="causes"><B>Evacuation</B></a></h1><BR>
                 <ul>
                     <li>All personnel are required to assist with evacuation. All crew must be evacuated, regardless of conscious state.</li>
@@ -2371,7 +2371,7 @@
                     <li>Shortening time to shuttle launch may be authorised if a clear threat to life, limb, or shuttle integrity is present.</li>
                 </ul>
                 <br><br>
-                
+
                 <h1><a name="viral"><b>Viral Outbreak Procedures</b></a></h1><BR>
                 <i><b>Definition: </b>A Viral Outbreak is defined as a situation where a Viral Pathogen has infected a significant portion of the crew (>10%)</i>
 				<ol>
@@ -2388,7 +2388,7 @@
                     <li>Once the Viral Outbreak is over, all personnel are to return to regular duties.</li>
                 </ol>
                 <br><br>
-                
+
                 <h1><a name="evac"><B>Evacuation</B></a></h1><BR>
                 <ul>
                     <li>Immediate evacuation of all untrained personnel.</li>
@@ -2396,7 +2396,7 @@
                     <li>Atmospheric Technicians are to remove hazard.</li>
                 </ul>
                 <br><br>
-                
+
                 <h1><a name="meteor"><B>Meteor Storm</B></a></h1><BR>
                 <ul>
                     <li>All crew to move to central parts of the station.</li>
@@ -2404,7 +2404,7 @@
                     <li>Personel that are doing EVA maintenance should seek shelter immediately.</li>
                 </ul>
                 <br><br>
-                
+
                 <h1><a name="sing"><B>Singularity Containment Failure</B></a></h1><BR>
                 <ul>
                     <li>Observation of Singularity movement.</li>
@@ -2412,7 +2412,7 @@
                     <li>Demotion of Chief Engineer and reparation of Engine if no threat manifests.</li>
                 </ul>
                 <br><br>
-				
+
 				</body>
 				</html>
 
