@@ -80,11 +80,11 @@
 
 	var/server
 	var/banappeals
-	var/wikiurl = "http://example.org"
-	var/forumurl = "http://example.org"
-	var/rulesurl = "http://example.org"
-	var/donationsurl = "http://example.org"
-	var/repositoryurl = "http://example.org"
+	var/wikiurl = "http://ss13.space/wiki"
+	var/forumurl = "http://adventcollective.net/forum/forums/dust-station.86/"
+	var/rulesurl = "http://adventcollective.net/forum/threads/dust-station-rules.958/"
+	var/donationsurl = "http://adventcollective.net/forum/threads/server-donation.963/"
+	var/repositoryurl = "https://github.com/AdventDust-Station/DustStation13/issues"
 
 	var/media_base_url = "http://example.org"
 	var/overflow_server_url
