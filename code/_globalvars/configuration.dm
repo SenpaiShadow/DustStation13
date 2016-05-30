@@ -2,8 +2,8 @@ var/datum/configuration/config = null
 
 var/host = null
 var/join_motd = null
-var/station_name = "NSS Cyberiad"
-var/game_version = "Custom ParaCode"
+var/station_name = "NSS Nebula"
+var/game_version = "Modified ParaCode"
 var/changelog_hash = ""
 var/game_year = (text2num(time2text(world.realtime, "YYYY")) + 544)
 
@@ -13,7 +13,7 @@ var/traitor_scaling = 1
 var/dna_ident = 1
 var/abandon_allowed = 0
 var/enter_allowed = 1
-var/guests_allowed = 1
+var/guests_allowed = 0
 var/shuttle_frozen = 0
 var/shuttle_left = 0
 var/tinted_weldhelh = 1
