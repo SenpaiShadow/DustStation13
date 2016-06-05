@@ -55,7 +55,7 @@
 	var/hostedby = null
 	var/respawn = 0
 	var/guest_jobban = 1
-	var/usewhitelist = 0
+	var/usewhitelist = 1
 	var/mods_are_mentors = 0
 	var/kick_inactive = 0				//force disconnect for inactive players
 	var/load_jobs_from_txt = 0
@@ -80,7 +80,7 @@
 
 	var/server
 	var/banappeals
-	var/wikiurl = "http://ss13.space/wiki"
+	var/wikiurl = "http://duststation.space/wiki"
 	var/forumurl = "http://adventcollective.net/forum/forums/dust-station.86/"
 	var/rulesurl = "http://adventcollective.net/forum/threads/dust-station-rules.958/"
 	var/donationsurl = "http://adventcollective.net/forum/threads/server-donation.963/"
