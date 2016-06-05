@@ -18,3 +18,7 @@ data/
 *.db
 stddef.dm
 .atom-build.json
+html/changelog.html
+code/controllers/configuration.dm
+html/changelog.html
+code/world.dm
