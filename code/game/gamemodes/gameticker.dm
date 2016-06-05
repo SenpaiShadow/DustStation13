@@ -38,6 +38,7 @@ var/round_start_time = 0
 	login_music = pick(\
 	'sound/music/THUNDERDOME.ogg',\
 	'sound/music/space.ogg',\
+	'sound/music/lunar.ogg',\
 	'sound/music/Title1.ogg',\
 	'sound/music/Title2.ogg',\
 	'sound/music/Title3.ogg',)

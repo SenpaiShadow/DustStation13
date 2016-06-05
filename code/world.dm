@@ -246,7 +246,7 @@ var/world_topic_spam_protect_time = world.timeofday
 	//kick_clients_in_lobby("<span class='boldannounce'>The round came to an end with you in the lobby.</span>", 1)
 
 	spawn(0)
-		to_chat(world, sound(pick('sound/AI/newroundsexy.ogg','sound/misc/apcdestroyed.ogg','sound/misc/bangindonk.ogg')))// random end sounds!! - LastyBatsy
+		to_chat(world, sound(pick('sound/AI/newroundsexy.ogg','sound/misc/apcdestroyed.ogg','sound/misc/crashing.ogg')))// random end sounds!! - LastyBatsy
 
 
 	processScheduler.stop()
